@@ -1,0 +1,123 @@
+.Mainbody {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    background-color: white;
+}
+
+.leftBody {
+    width: 450px;
+    height: 480px;
+    background-color: gray;
+    color: black
+}
+
+.rightBody{
+    width: 450px;
+    height: 480px;
+    background-color: gray;
+}
+
+
+.calcBtnWrapper {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: center;
+}
+
+.calcBtn {
+    width: 130px;
+    height:57px;
+    text-align: center;
+    margin: 5px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.operBtn {
+    width: 90px;
+    height: 57px;
+    text-align: center;
+    margin: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+
+.operatorsWrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+}
+
+.resultWnd {
+    width: 425px;
+    height: 55px;
+    background-color: lightgrey;
+    margin: 5px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    font-size: 40px
+    
+}
+
+.zeroBtnWrapper {
+    display: grid;
+    grid-template-columns: 65% 32%;
+    justify-content: center;
+}
+
+.zeroBtn {
+    background-color: lightgrey;
+    height: 55px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.eqvalbtn {
+    background-color: lightgrey;
+    margin: 5px;
+    height: 55px;
+    width: 430px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.modeBtn {
+    box-shadow: inset 0 1px 0 0 #ffffff;
+    background: #ffffff linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+    outline: 0;
+    margin: 15px;
+}
+
+.modeBtn:hover {
+    box-shadow: inset 0 1px 0 0 #dcecfb;
+    background: #bddbfa linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+    border: 1px solid #84bbf3;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #528ecc;
+}
+
+
+
+.EmptyBody {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
